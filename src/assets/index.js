@@ -22,7 +22,7 @@ import Tracking from "./tracking.png";
 import Education from "./Education.png"; 
 import Donation from "./donation.png";
 import Img1 from "../assets/Img1.png";
-import Img1 from "../assets/Img2.png";
+import Img2 from "../assets/Img2.png";
 
 export {
   Img1,
