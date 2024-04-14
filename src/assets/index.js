@@ -21,8 +21,8 @@ import Rewards from "./rewards.png";
 import Tracking from "./tracking.png";
 import Education from "./Education.png"; 
 import Donation from "./donation.png";
-import Img1 from "./Img1.png";
-import Img2 from "./Img2.png";
+import Img1 from "./img1.png";
+import Img2 from "./img2.png";
 
 export {
   Img1,
