@@ -3,8 +3,8 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-black-gradient`}> 
+  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} `}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-green-icon`}> 
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
@@ -22,10 +22,11 @@ const Business = () => (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Lorem ipsum dolor sit amet consectetur,  <br className="sm:block hidden " /> adipisicing elit. 
+      Green Points: <br className="sm:block hidden " />  
+      Smart Recycling and Waste Solutions
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Nisi vero tenetur error laborum perspiciatis eum! Lorem ipsum dolor sit amet consectetur
+      Learn about advanced recycling methodologies, innovative waste management strategies and environmentally friendly technologies that lead to a transformative impact on the environment and society.
       </p>
 
 

@@ -1,4 +1,4 @@
-import { Intelligent, Managment, Sustainable, facebook, instagram, twitter, cryptochicks, ETHvzla, cryptoconexion,  } from "../assets";
+import { Donation, Tracking, Rewards, Smart, Community, Inventory, Intelligent, Managment, Sustainable, facebook, instagram, twitter, Education} from "../assets";
 
 export const navLinks = [
   {
@@ -18,6 +18,59 @@ export const navLinks = [
     title: "Clients",
   },
 ];
+
+export const dashboard = [
+  {
+    id: "feature-1",
+    icon: Inventory,
+    title: "Inventory Management System",
+    content:
+      "Developing software to keep a detailed record of the inventory of recyclable materials at the collection centre. This will allow for better collection planning and management of available resources.",
+  },
+  {
+    id: "feature-2",
+    icon: Community,
+    title: "Community Communication",
+    content:
+      "Creating an online application or platform to facilitate communication between the collection centre and the local community. Users could receive updates on collection schedules, types of materials accepted and recycling tips.",
+  },
+  {
+    id: "feature-3",
+    icon: Smart,
+    title: "Smart Collection",
+    content:
+      "Implementing a collection scheduling system based on intelligent algorithms that takes into account factors such as the collection centre's storage capacity, demand for recyclables and traffic conditions to optimise collection routes and schedules.",
+  },
+  {
+    id: "feature-4",
+    icon: Rewards,
+    title: "Recycling Rewards",
+    content:
+      "Designing a mobile app that motivates the community to recycle more by offering incentives or rewards for dropping off recyclables at the collection centre. This could include discounts at local shops or points redeemable for products.",
+  },
+  {
+    id: "feature-5",
+    icon: Tracking,
+    title: "Material Flow Tracking",
+    content:
+      "Developing a tracking system that records the quantity and type of recyclables entering the collection centre, as well as their final destination after processing. This would provide transparency and accountability in the recycling process.",
+  },
+  {
+    id: "feature-6",
+    icon: Education,
+    title: "Online Education and Traing",
+    content:
+      "On proper recycling practices. This would help increase environmental awareness and promote greater participation in recycling.",
+  },
+  {
+    id: "feature-7",
+    icon: Donation,
+    title: "Donations",
+    content:
+      "Facilitate the payment process for the delivery of recyclables to the collection centre by integrating with electronic payment systems, such as credit cards, bank transfers or wallets.",
+  },
+];
+
 
 export const features = [
   {
@@ -146,21 +199,3 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: cryptoconexion,
-  },
-  {
-    id: "client-2",
-    logo: cryptochicks,
-  },
-  {
-    id: "client-2",
-    logo: ETHvzla,
-  },
-
-
-
-
-];

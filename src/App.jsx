@@ -1,19 +1,38 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Hero} from "./components";
+import { Billing, Business, CardDeal, CTA, Footer, Navbar, Stats, Hero} from "./components";
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
+import {Button} from "./components/Button";
+import Inventory from "./components/Inventory";
+import { Dashboard } from "./components/Dashboard";
 
-const App = () => (
+function App() {
+  return (
   <div className=" w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
 
+        <Navbar />
+        <BrowserRouter>
+        
+        <Routes>
+     
+       
+          <Route path="/inventory" element={<Inventory />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+  
+        </Routes>
+        </BrowserRouter>
+
+      </div>
+      
+    </div>
     <div className={` ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
+  
+
 
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -22,11 +41,14 @@ const App = () => (
         <Billing />
         <CardDeal />
         <CTA />
-        <Clients />
+        <Dashboard/>
+        <Inventory/>
         <Footer />
       </div>
     </div>
   </div>
+  
 );
+}
 
 export default App;

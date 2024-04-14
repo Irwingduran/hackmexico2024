@@ -10,19 +10,19 @@ const Hero = () => {
         
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px]">
-            We are create<br className="sm:block hidden" />{" "}
-            <span className="text-gradient">  green space </span>{" "}
+            We are creating<br className="sm:block hidden" />{" "}
+            <span className="text-gradient">  greener  </span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-black ss:leading-[100.8px] leading-[75px] w-full">
-          in the cities
+        cities
         </h1>
         
         <p className={`${styles.paragraph} text-black max-w-[500px] mt-3`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt earum nobis culpa a accusantium non alias, quae sequi et commodi. Assumenda ex beatae voluptatum quisquam sunt perferendis accusamus molestias dolorum?
+        Green Points is the next step in a resilience strategy. It is the platform for smart management of collection centers, that connects with people, companies and local businesses.
           </p>
           
       </div>

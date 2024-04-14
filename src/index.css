@@ -66,6 +66,14 @@
       #056703 91.61%);
 }
 
+.bg-green-icon {
+  background: #2db544;
+}
+
+.bg-white-dashboard{
+  background: #fff;
+}
+
 .bg-black-gradient-2 {
   background: linear-gradient(-168.39deg,
       #ffffff -278.56%,
